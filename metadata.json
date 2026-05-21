@@ -1,0 +1,6 @@
+{
+  "name": "Photo Tagger",
+  "description": "A beautiful clean minimalist app to manually organize, sync, and tag your photos locally.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
