@@ -1,0 +1,20 @@
+git clone https://github.com/sgkouzias/photo-tagger.git
+cd photo-tagger
+
+# Create the workflows directory
+mkdir -p .github/workflows
+
+# Create build-apk.yml (paste content below)
+cat > .github/workflows/build-apk.yml << 'EOF'
+[content below]
+EOF
+
+# Create build-and-test.yml (paste content below)
+cat > .github/workflows/build-and-test.yml << 'EOF'
+[content below]
+EOF
+
+# Commit and push
+git add .github/workflows/
+git commit -m "ci: add APK build workflows"
+git push origin main
