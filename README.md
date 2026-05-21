@@ -1,21 +1,31 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Photo Tagger
 
-# Run and deploy your AI Studio app
+Photo Tagger is a minimalist Android application designed for manual organization and management of your photo collection. It provides a clean, distraction-free interface to categorize, tag, and search your images locally.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/6f40fa16-96ce-4a26-8359-196c565568c6
+- **Local Import**: Seamlessly add photos from your device's gallery to your managed collection.
+- **Manual Organization**: Categorize photos (e.g., Places, People, Nature, Docs) and add custom tags to make them easy to find and group.
+- **Search & Filtering**: Quickly find photos by searching through titles, locations, and tags, or by filtering your gallery by category.
+- **Favorites**: Mark specific photos as favorites for quick access.
+- **Material 3 Design**: A modern, clean interface built with Jetpack Compose.
+- **Privacy Focused**: All data is stored locally on your device using a Room database. No external APIs or cloud services are required.
 
-## Run Locally
+## Getting Started
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+### Prerequisites
 
+- [Android Studio](https://developer.android.com/studio)
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+### Installation
+
+1. Open Android Studio.
+2. Select **Open** and choose the directory containing this project.
+3. Build and run the app on an emulator or physical device.
+
+## How to Use
+
+1. **Import Photos**: Use the "Add" button in the header to pick images from your device.
+2. **Edit Details**: Tap on any photo to open the detail view, where you can manually edit the title, location, category, and tags.
+3. **Browse & Search**: Use the search bar to filter by text, or use the "Tags" tab to navigate through your collection of unique tags.
+4. **Sample Data**: Use the "Sync" button in the header to populate the app with sample categorized photos to explore the organization features.
